@@ -6,6 +6,7 @@ import SearchInput from "../components/SearchInput";
 import SortIcon from "../assets/SortIcon";
 import DownloadIcon from "../assets/DownloadIcon";
 import DownChevronIcon from "../assets/DownChevronIcon";
+import DownloadTableIcon from "../assets/downloadTableIcon";
 
 const Home = () => {
   return (
@@ -19,7 +20,7 @@ const Home = () => {
           </button>
         </div>
         <div className="flex flex-wrap gap-[1.25rem] mt-6 mb-8">
-          <div className="min-w-[23rem] text-white bg-[#146EB4] rounded-[0.5rem]">
+          <div className="flex-1 min-w-[23rem] text-white bg-[#146EB4] rounded-[0.5rem]">
             <div className="p-5">
               <div className="flex items-center gap-2">
                 <span className="-mt-[2px]">Next Payout</span> <HelpIcon />
@@ -36,7 +37,7 @@ const Home = () => {
               <span>Today, 04:00PM</span>
             </div>
           </div>
-          <div className="min-w-[23rem] rounded-[0.5rem] bg-white shadow-md h-fit ">
+          <div className="flex-1 min-w-[23rem] rounded-[0.5rem] bg-white shadow-md h-fit ">
             <div className="p-5">
               <div className="flex items-center gap-2">
                 <span className="-mt-[2px]">Amount Pending</span> <HelpIcon />
@@ -49,7 +50,7 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="min-w-[23rem] rounded-[0.5rem] bg-white shadow-md h-fit ">
+          <div className="flex-1 min-w-[23rem] rounded-[0.5rem] bg-white shadow-md h-fit ">
             <div className="p-5">
               <div className="flex items-center gap-2">
                 <span className="-mt-[2px]">Amount Processed</span> <HelpIcon />
@@ -88,7 +89,7 @@ const Home = () => {
                 <SortIcon />
               </button>
               <button className="border border-solid border-[#D9D9D9] rounded-md px-[0.75rem] py-[0.38rem]">
-                <DownloadIcon />
+                <DownloadTableIcon />
               </button>
             </div>
           </div>
