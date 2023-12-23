@@ -14,7 +14,7 @@ const Home = () => {
       <div>
         <div className="flex justify-between items-center gap-2">
           <h3 className="text-[1.25rem] font-medium">Overview</h3>
-          <button className="flex items-center gap-2 border border-solid border-[#D9D9D9] rounded-md px-[0.75rem] py-[0.38rem]">
+          <button className="flex items-center gap-2 border border-solid  bg-white border-[#D9D9D9] rounded-md px-[0.75rem] py-[0.38rem]">
             This Month
             <DownChevronIcon />
           </button>
@@ -63,7 +63,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-[1.25rem] font-medium">
+        <h3 className="text-[1.25rem] font-medium ">
           Transactions | This Month
         </h3>
         <div className="flex gap-4 my-4">
