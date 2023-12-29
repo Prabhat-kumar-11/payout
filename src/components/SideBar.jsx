@@ -1,6 +1,5 @@
 import React from "react";
 import DownChevronIcon from "../assets/DownChevronIcon";
-import HomeIcon from "../assets/SideNavIcons/HomeIcon";
 import { NavLinks } from "../utils/constants";
 import WalletCreditIcon from "../assets/SideNavIcons/WalletCreditIcon";
 
@@ -29,7 +28,7 @@ export const SideBar = () => {
               link.title === "Payouts" ? "bg-white/10" : ""
             }`}
           >
-            <div className="flex gap-2 items-center">
+            <div className="flex gap-3 items-center">
               {link.icon}
               <p className="text-white text-[0.875rem] font-medium font-inter">
                 {link.title}

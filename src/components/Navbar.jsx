@@ -6,7 +6,7 @@ import ChatIcon from "../assets/NavbarIcons/ChatIcon";
 
 const Navbar = () => {
   return (
-    <div className="fixed top-0 h-16 w-[calc(100%-14rem)] ml-56 flex gap-4 px-8 py-[0.75rem] border-b border-b-[#D9D9D9] bg-white">
+    <div className="fixed z-50 top-0 h-16 w-[calc(100%-14rem)] ml-56 flex gap-4 px-8 py-[0.75rem] border-b border-b-[#D9D9D9] bg-white">
       <div className="flex flex-1 items-center gap-[0.38rem]">
         <p className="text-Galano font-medium bg-[ #1A181E] text-[1.25rem] mr-4">
           Payouts
