@@ -143,7 +143,7 @@ const Home = () => {
             {"Payouts (22)"}
           </div>
           <div className="rounded-[2.5rem] text-white bg-[#146EB4] px-4 py-[0.38rem] font-medium font-inter text-[0.875rem]">
-            {"Refunds (2)"}
+            {"Refunds (10)"}
           </div>
         </div>
 

@@ -37,11 +37,11 @@ export const SideBar = () => {
           </div>
         ))}
       </div>
-      <div className="flex items-center gap-2 bg-[#353C53] mt-auto py-[0.38rem] px-[0.75rem] rounded-[0.25rem]">
+      <div className="flex items-center gap-2 bg-[#353C53] mx-[0.63rem] mt-auto py-[0.38rem] px-[0.75rem] rounded-[0.25rem]">
         <div className="h-[2.25rem] w-[2.25rem] bg-white/10 flex justify-center items-center rounded-[0.25rem]">
           <WalletCreditIcon />
         </div>
-        <div className="text-white flex flex-col justify-center">
+        <div className="text-white flex flex-col justify-center ">
           <p className="leading-normal font-normal font-inter text-[0.8125rem]">
             Available Credits
           </p>
