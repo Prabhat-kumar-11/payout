@@ -86,7 +86,7 @@ const Home = () => {
       <div>
         <div className="flex justify-between items-center gap-2">
           <h3 className="text-[1.25rem] font-medium">Overview</h3>
-          <button className="flex items-center gap-2 border border-solid  bg-white border-[#D9D9D9] rounded-md px-[0.75rem] py-[0.38rem]">
+          <button className="flex items-center gap-2 border border-solid font  bg-white border-[#D9D9D9] rounded-md px-[0.75rem] py-[0.38rem]">
             This Month
             <DownChevronIcon />
           </button>
@@ -98,7 +98,7 @@ const Home = () => {
                 <span className="-mt-[2px]">Next Payout</span> <HelpIcon />
               </div>
               <div className="flex justify-between gap-2">
-                <span className="text-[2rem]">₹2,312.23</span>
+                <span className="text-[2rem] font-medium ">₹2,312.23</span>
                 <span className="underline flex items-center">
                   23 orders <RightChevronIcon />
                 </span>
@@ -115,9 +115,9 @@ const Home = () => {
                 <span className="-mt-[2px]">Amount Pending</span> <HelpIcon />
               </div>
               <div className="flex justify-between gap-2">
-                <span className="text-[2rem]">₹92,312.20</span>
+                <span className="text-[2rem]  font-medium ">₹92,312.20</span>
                 <span className="underline flex items-center text-[#146EB4]">
-                  23 orders <RightChevronIcon />
+                  13 orders <RightChevronIcon />
                 </span>
               </div>
             </div>
@@ -128,7 +128,7 @@ const Home = () => {
                 <span className="-mt-[2px]">Amount Processed</span> <HelpIcon />
               </div>
               <div className="flex justify-between gap-2">
-                <span className="text-[2rem]">₹23,92,312.19</span>
+                <span className="text-[2rem] font-medium ">₹23,92,312.19</span>
               </div>
             </div>
           </div>
@@ -172,31 +172,31 @@ const Home = () => {
                 <tr className="rounded-md">
                   <th
                     scope="col"
-                    className="text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className="w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Order ID
                   </th>
                   <th
                     scope="col"
-                    className="text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className="w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Status
                   </th>
                   <th
                     scope="col"
-                    className="text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className=" w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Transaction ID
                   </th>
                   <th
                     scope="col"
-                    className="text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className=" w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Refund date
                   </th>
                   <th
                     scope="col"
-                    className="px-6 py-3 text-[0.875rem] text-[ #4D4D4D] text-right font-medium"
+                    className="w-[14.5rem] px-6 py-3 text-[0.875rem] text-[ #4D4D4D] text-right font-medium"
                   >
                     Order amount
                   </th>

@@ -42,8 +42,12 @@ export const SideBar = () => {
           <WalletCreditIcon />
         </div>
         <div className="text-white flex flex-col justify-center">
-          <p className="leading-normal">Available Credits</p>
-          <p className="leading-normal text-base font-medium">221.10</p>
+          <p className="leading-normal font-normal font-inter text-[0.8125rem]">
+            Available Credits
+          </p>
+          <p className="leading-normal text-[1rem] text-base font-medium">
+            221.10
+          </p>
         </div>
       </div>
     </div>
