@@ -135,7 +135,7 @@ const Home = () => {
         </div>
       </div>
       <div>
-        <h3 className="text-[1.25rem] font-medium text-[ #1A181E] tracking-wide ">
+        <h3 className="text-[1.25rem] font-medium text-[ #1A181E] tracking-wider ">
           Transactions | This Month
         </h3>
         <div className="flex gap-4 my-4">
