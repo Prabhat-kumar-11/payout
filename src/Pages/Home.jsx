@@ -172,31 +172,31 @@ const Home = () => {
                 <tr className="rounded-md">
                   <th
                     scope="col"
-                    className="w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className="w-[13rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Order ID
                   </th>
                   <th
                     scope="col"
-                    className="w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className="w-[14rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Status
                   </th>
                   <th
                     scope="col"
-                    className=" w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className=" w-[15rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Transaction ID
                   </th>
                   <th
                     scope="col"
-                    className=" w-[14.5rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
+                    className=" w-[13rem] text-[0.875rem] text-[ #4D4D4D] px-6 py-3 font-medium"
                   >
                     Refund date
                   </th>
                   <th
                     scope="col"
-                    className="w-[14.5rem] px-6 py-3 text-[0.875rem] text-[ #4D4D4D] text-right font-medium"
+                    className="w-[13rem] px-6 py-3 text-[0.875rem] text-[ #4D4D4D] text-right font-medium"
                   >
                     Order amount
                   </th>
